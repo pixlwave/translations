@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>notice_room_server_acl_changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string></string>
+		<key>Variable</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d changement des ACL du serveur</string>
+			<key>other</key>
+			<string>%d changements des ACL du serveur</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
