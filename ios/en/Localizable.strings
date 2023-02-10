@@ -1,0 +1,4 @@
+"invite_no_invitee_you" = "Your invitation";
+"invite_no_invitee" = "%@\'s invitation";
+"invite" = "%1$@ invited %2$@";
+"invite_by_you" = "You invited %1$@";
