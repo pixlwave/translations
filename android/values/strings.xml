@@ -9,4 +9,6 @@
         <item quantity="one">%d server ACLs change</item>
         <item quantity="other">%d server ACLs changes</item>
     </plurals>
+    <string name="doug_test">Hello</string>
+    <string name="new_string">New string</string>
 </resources>
