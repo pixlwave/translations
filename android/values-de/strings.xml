@@ -8,4 +8,7 @@
         <item quantity="one">%d Server-ACL geändert</item>
         <item quantity="other">%d Server-ACLs geändert</item>
     </plurals>
+    <string name="doug_test">Hallo</string>
+    <string name="new_string">Neue Zeichenfolge</string>
+    <string name="invite_by_you">%1$s hat dich eingeladen</string>
 </resources>
