@@ -3,7 +3,6 @@
     <string name="invite_no_invitee_you">Votre invitation</string>
     <string name="invite_no_invitee">invitation de %s</string>
     <string name="invite">%1$s a invité %2$s</string>
-    <string name="invite_you">%1$s vous a invité</string>
     <plurals name="acl_changes">
         <item quantity="one">%d changement des ACL du serveur</item>
         <item quantity="other">%d changements des ACL du serveur</item>
