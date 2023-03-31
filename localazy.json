@@ -5,23 +5,33 @@
     "actions": [
       {
         "type": "android",
-        "output": "android/values-${lang}/strings.xml"
+        "output": "android/values/localazy.xml",
+        "excludeKeys": ["REGEX:.*_ios"],
+        "conditions": [ "equals: ${languageCode}, en" ]
+      },
+      {
+        "type": "android",
+        "output": "android/values-${lang}/localazy.xml",
+        "excludeKeys": ["REGEX:.*_ios"],
+        "conditions": [ "!equals: ${languageCode}, en" ]
       },
       {
         "type": "ios-strings",
-        "changeExtension": "strings",
-        "output": "ios/${lang}/${file}",
+        "output": "ios/${iosLprojFolder}/Localizable.strings",
+        "excludeKeys": ["REGEX:.*_android"],
         "filterPlurals": true,
         "replacements": {
-          "%s": "%@"
+          "%s": "%@",
+          "$s": "$@"
         }
       },
       {
         "type": "ios-stringsdict",
-        "changeExtension": "stringsdict",
-        "output": "ios/${lang}/${file}",
+        "output": "ios/${iosLprojFolder}/Localizable.stringsdict",
+        "excludeKeys": ["REGEX:.*_android"],
         "replacements": {
-          "%s": "%@"
+          "%s": "%@",
+          "$s": "$@"
         },
         "params": {
           "variable": "COUNT"
